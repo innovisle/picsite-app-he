@@ -61,7 +61,7 @@ class AlbumApp(QMainWindow):
         self.load_albums()
 
     def initUI(self):
-        self.setWindowTitle('Album Viewer')
+        self.setWindowTitle('MrHe图库上传器 - Album Viewer')
         self.setGeometry(100, 100, 800, 600)
         self.main_widget = QWidget()
         self.setCentralWidget(self.main_widget)
